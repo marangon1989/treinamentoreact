@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "fashinnovation",
+    "slug": "fashinnovation",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    // "splash": {
+    //   "image": "./src/assets/splash.png",
+    //   "resizeMode": "cover",
+    //   "backgroundColor": "#FEF9B0"
+    // },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.fashinnovation",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.fashinnovation",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    }
+  }
+}
